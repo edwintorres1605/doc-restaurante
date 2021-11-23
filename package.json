@@ -1,0 +1,23 @@
+{
+  "name": "doc-restaurante",
+  "version": "0.0.1",
+  "description": "Documentación sobre creación de web app para el menú de un restaurante",
+  "main": "index.js",
+  "authors": {
+    "name": "Edwin Torres",
+    "email": "edwintorres.mec@gmail.com"
+  },
+  "repository": "https://github.com/edwintorres1605/doc-restaurante/doc-restaurante",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2"
+  }
+}
