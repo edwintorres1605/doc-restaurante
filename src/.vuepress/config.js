@@ -1,7 +1,7 @@
 module.exports = {
   dest: 'docs',
   base: '/doc-restaurante/',
-  title: 'Menú Restaurante',
+  title: 'Documentación Menú Restaurante',
   description: 'Documentación Proyecto Menú Restaurante',
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -23,15 +23,17 @@ module.exports = {
       },
       {
         text: 'Repo Front',
-        link: 'https://github.com/edwintorres1605/back-restaurante'
+        link: 'https://github.com/edwintorres1605/front-restaurante'
       },
       {
         text: 'Repo Back',
-        link: 'https://github.com/edwintorres1605/front-restaurante'
+        link: 'https://github.com/edwintorres1605/back-restaurante'
       }
     ],
     sidebar: [
-      '/'
+      '/',
+      '/frontend/',
+      '/backend/',
     ]
   },
   plugins: [
